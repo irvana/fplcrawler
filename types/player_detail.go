@@ -23,6 +23,7 @@ type PlayersTable struct {
 }
 
 type Detail struct {
+	PlayerName      string
 	Opponent        string      `json:"opponent"`
 	ElementTeam     interface{} `json:"elementTeam"`
 	GameWeek        int64       `json:"gameWeek"`
